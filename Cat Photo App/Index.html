@@ -1,0 +1,82 @@
+<!--its an declaration that ensures browser tries to meet the industry wide specifications-->
+    <! DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>CatPhotoApp</title>
+        </head>
+            <body>
+                <main>
+                    <h1>CatPhotoApp</h1>
+                    <section>
+                        <h2>Cat Photos</h2>
+                        <p>See more <a href="group-of-cute-cat-photo.jpg" target="_blank"> cat photos </a>in our gallery.</p>
+                        <img src="Cat photo 1.jpg" alt="Cute cat photo" width="300" height="200">
+                    </section>
+
+                    <section>
+                        <h2>Cat Lists</h2>
+                        <h3>Things cats love:</h3>
+                        <ul>
+                            <li>Cat Nip</li>
+                            <li>Laser Pointers</li>
+                            <li>Lasagna</li>
+                        </ul>
+                        <figure>
+                            <img src="Lasagna.jpg" alt="Image of the lasagna." height="170">
+                            <figcaption>
+                                Cats <em>love </em> lasagna.
+                            </figcaption>
+                        </figure>
+                        <h3>Top 3 things cats hate:</h3>
+                        <ol>
+                            <li>Flea Treatment</li>
+                            <li>Thunder</li>
+                            <li>Other cats</li>
+                        </ol>
+                        <figure>
+                            <img src="Cat photo 2.jpg" alt="group of cats" width="300">
+                            <figcaption>
+                                Cats <strong>hate </strong> other cats.</figcaption>
+                            </figure>
+                    </section>
+
+                    <section>
+                        <h2>Cat Form</h2>
+                        <form action="">
+                            <fieldset>
+                                <legend>
+                                    Is your cat an indoor or outdoor cat?
+                                </legend>
+                                <input id="indoor" type="radio" name="indoor-outdoor" value="indoor">
+                                <label for="indoor">Indoor</label>
+
+                                <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
+                                <label for="outdoor">Outdoor</label>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>
+                                What's your cat's personality?
+                                </legend>
+                                <input id="loving" type="checkbox" name="personality" value="Loving">
+                                <label for="loving">Loving</label>
+
+                                <input id="lazy" type="checkbox" name="personality" value="Lazy">
+                                <label for="lazy">Lazy</label>
+
+                                <input id="energetic" type="checkbox" name="personality">
+                                <label for="energetic">Energetic</label>
+                            </fieldset>
+
+                            <input type="text" placeholder="Cat Photo URL" name="cat photo URL" required>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </section>
+                </main>
+                <footer>
+                    <p>
+                    No Copyright - <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp.org</a></p>
+                </footer>
+            </body>
+    </html>
